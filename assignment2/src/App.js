@@ -10,7 +10,6 @@ function Firstarray(){
         {arr1.map((e)=>(
           <li type="square">{e}</li>
         ))}
-       
       </ul>)
 }
 function Secheading(){
