@@ -1,1 +1,3 @@
-var name=require('./calc')
+var other=require('./other')
+require('./style.css')
+console.log(other())
