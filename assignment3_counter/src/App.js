@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {useState} from 'react'
 function App() {
+  const [count, setcount] = useState(0)
+  const change=(value)=>{
+    setcount(count+value)
+  };
+  const changedouble=(value)=>{
+    setcount(count*2)
+  }
   return (
+    <div>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Counter:{count}</h1>
+      <div>
+      <div>
+          <button onClick={()=>change(1)}>+1</button>
+          <button onClick={()=>change(-1)}>-1</button>
+          <button onClick={()=>changedouble(2)}>x2</button>
+      </div>
+      
     </div>
+    </div>
+    </div>
+    
   );
 }
 
