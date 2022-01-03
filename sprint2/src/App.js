@@ -36,6 +36,9 @@ function App() {
       
       const showData=(ddata)=>{
         ddata.preventDefault();
+        fetch('http://localhost:8000/recipe')
+        .then((res)=>res.json())
+        .then((data)=>setList(data))
         setDetails(ddata)
         console.log(ddata)
       }
