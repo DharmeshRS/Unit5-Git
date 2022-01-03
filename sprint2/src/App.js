@@ -35,6 +35,7 @@ function App() {
       const [details,setDetails]=useState({})
       
       const showData=(ddata)=>{
+        ddata.preventDefault();
         setDetails(ddata)
         console.log(ddata)
       }
@@ -45,7 +46,7 @@ function App() {
     <div>
         <div className='Div1'>
                   <div>
-                      <h1>Add recipe</h1>
+                      <h1>Add recipe </h1>
                   </div>
                   <div>
                       <form>
@@ -77,7 +78,7 @@ function App() {
                   </div>
                 </div>
                 <div className='Div2'>
-                  <h1>Description</h1>
+                  <h1>Description <button>sort</button></h1>
                 
                 <div>
                 {list.map((re)=>{
