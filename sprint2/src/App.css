@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  display: flex;
+}
+.Div1{
+  width: 50%;
+  background-color: blue;
+}
+
+.Div2{
+  width: 50%;
+  background-color: green;
+}
