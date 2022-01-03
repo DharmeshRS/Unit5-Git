@@ -37,7 +37,7 @@
   }
 }
 
-.App{
+.App>div{
   display: flex;
 }
 .Div1{
@@ -48,4 +48,20 @@
 .Div2{
   width: 50%;
   background-color: rgb(211, 247, 211);
+}
+.innerSpan1,.innerSpan2 {
+    margin-top: 20px;
+}
+
+.innerdiv{
+  display: flex;
+  
+}
+.innerdiv>div{
+ width: 200px;
+  
+}
+form > label{
+  width: 100px;
+  text-align: justify;
 }
