@@ -1,31 +1,50 @@
 // import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 function App() {
-  const [allData,setAllData]=useState({
-    title:"",
-    ingredient:"",
-    time:"",
-    // image:""
-    instruction:""
-  })
-
+  const [allData,setAllData]=useState({})
+ 
   const changeData=(event)=>{
-      const name=event.target.name;
-      const value=event.target.value;
-      setAllData((prev)=>{
-        return{
-          ...prev,
-          [name]:value,
-        }
-      })
+     const {name,value}=event.target
+     setAllData({...allData,[name]:value})
   }
-
+  // useEffect(() => {
+  //  fetch('http://localhost:8000/recipe')
+  //  .then(res=>{
+  //    return res.json()
+  //  })
+  //  .then(data=>{
+  // console.log(data)
+  // setAllData(data)
+  //  })
+  // }, [])
   const onsubmits=(event)=>{
     event.preventDefault();
-    alert("Data Saved")
+    console.log(allData)
+    fetch("http://localhost:8000/recipe",{
+      method:"POST",
+      body:JSON.stringify(allData),
+      headers:{
+        "content-type":"application/json",
+      },
+    }).then(()=>{
+      setAllData({});
+      alert("recipe Uploaded...")
+    })
+
   }
+
+    const [list,setList]=useState([])
+    
+    fetch('http://localhost:8000/recipe')
+    .then((res)=>res.json())
+    .then((data)=>setList(data))
+    
+        
+    
+
+
   return (
     <div className="App" onSubmit={onsubmits}>
             <div className='Div1'>
@@ -46,10 +65,10 @@ function App() {
                       <label>Time to cook</label>
                       <input type="text" placeholder="Time To cook" name='time' onChange={changeData} />
                   </div>
-                  {/* <div>
+                  <div>
                   <label>Image</label>
-                      <input type="file" />
-                  </div> */}
+                      <input type="text" placeholder="enter url" name='img' onChange={changeData} />
+                  </div>
                   <div>
                   <label>Instructions</label>
                       <input type="text" placeholder='Instructions' name='instruction' onChange={changeData}/>
@@ -67,8 +86,25 @@ function App() {
 
             <div className='Div2'>
               <h1>Description</h1>
-            </div>
             
+            <div>
+            {list.map((re)=>{
+                return (
+                  <div style={{border:"1px solid black"}}>
+                    <span style={{border:"1px solid black"}}>
+                        {re.title}
+                    </span>
+                   &nbsp;&nbsp;
+                    <span>
+                        {re.time}
+                </span>
+                   </div>)
+            })}
+        </div>
+    </div>
+    <div>
+      All Information
+    </div>
     </div>
   );
 }
