@@ -1,6 +1,17 @@
 .App {
+  /* text-align: center; */
+  width: 300px;
+  margin: auto;
+  background-color: rgb(190, 190, 247);
+  height: auto;
+  margin-top: 50px;
   text-align: center;
 }
+
+.innerDiv{
+
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +46,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grocerylist{
+  display: flex;
+  flex-direction: row;
+  margin:20px;
+  text-align: center;
 }
