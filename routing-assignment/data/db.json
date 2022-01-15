@@ -1,0 +1,53 @@
+{
+    "data":[
+        {
+            "id":1,
+            "pname":"canvas shoes",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11097156/2019/12/10/b8d45a95-161f-442c-9e69-6997e05f25ff1575980861980-HIGHLANDER-Men-White-Sneakers-4301575980859728-1.jpg",
+       
+            "price":500
+        },
+        {
+            "id":2,
+            "pname":"canvas shoes",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11097156/2019/12/10/b8d45a95-161f-442c-9e69-6997e05f25ff1575980861980-HIGHLANDER-Men-White-Sneakers-4301575980859728-1.jpg",
+             "price":999
+        },
+        {
+            "id":3,
+            "pname":"EL Paso",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16045848/2021/12/13/c42ef067-9fbe-4077-a48c-fca6331796ab1639383810735-Nike-Court-Vision-Low-Mens-Shoes-7251639383810387-1.jpg",
+             "price":699
+        },
+        {
+            "id":4,
+            "pname":"EL paso women",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/26/8f63fbde-082b-4814-8173-49a9473263721619413780808-1.jpg",
+             "price":659
+        },
+        {
+            "id":5,
+            "pname":"Sport T-shirt",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14311818/2021/6/9/eefc97e4-f190-4374-aaf2-e53ddfbd82f21623221865242Mens100CottonSlimBlackTShirtTshirtsLouisPhilippeMenTshirtsLo1.jpg",
+             "price":959
+        },
+        {
+            "id":6,
+            "pname":"HRX Tshirt",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg",
+             "price":799
+        },
+        {
+            "id":7,
+            "pname":"H & N",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/2/6/1f5471ec-c783-4fa7-99f4-2b6f6fb251761580946317672-1.jpg",
+             "price":299
+        },
+        {
+            "id":8,
+            "pname":"Levis",
+            "pimg":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15813904/2021/11/16/cd84a825-e60e-4ad4-b891-2edaeb59f78d1637050200768TshirtsLevisMenJeansLevisMenJeansLevisMenShirtsArrowSportMen1.jpg",
+             "price":899
+        }
+    ]
+}
