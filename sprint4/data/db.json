@@ -14,9 +14,36 @@
       "companyname": "Microsoft",
       "jobtitle": "SDE1",
       "salary": "15LPA",
-      "jobdesc": "We want well qualified person",
+      "jobdesc": "We want well Data Analyst qualified person",
+      "location": "Banglore",
+      "jobtype": "Hyderabad"
+    },
+    {
+      "id": 3,
+      "companyname": "Infosys",
+      "jobtitle": "SDE2",
+      "salary": "19LPA",
+      "jobdesc": "We want well react developer qualified person",
+      "location": "Germany",
+      "jobtype": "remote"
+    },
+    {
+      "id": 4,
+      "companyname": "Masai",
+      "jobtitle": "SDE2",
+      "salary": "23LPA",
+      "jobdesc": "We want well NodeJS developer",
       "location": "Banglore",
       "jobtype": "remote"
+    },
+    {
+      "companyname": "masai school",
+      "jobtitle": "SDE1",
+      "salary": "15LPA",
+      "jobdesc": "react developer",
+      "location": "Banglore",
+      "jobtype": "remote",
+      "id": 5
     }
   ]
 }
