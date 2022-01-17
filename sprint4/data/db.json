@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "companyname": "Apple",
+      "jobtitle": "Manager",
+      "salary": "15LPA",
+      "jobdesc": "We want well qualified person",
+      "location": "Banglore",
+      "jobtype": "remote"
+    },
+    {
+      "id": 2,
+      "companyname": "Microsoft",
+      "jobtitle": "SDE1",
+      "salary": "15LPA",
+      "jobdesc": "We want well qualified person",
+      "location": "Banglore",
+      "jobtype": "remote"
+    },
+    {
+      "companyname": "rrere",
+      "jobtitle": "reee",
+      "salary": "fdffd",
+      "jobdesc": "fdfdfd",
+      "location": "fdfdfd",
+      "jobtype": "fdfdfdf",
+      "id": 3
+    }
+  ]
+}
