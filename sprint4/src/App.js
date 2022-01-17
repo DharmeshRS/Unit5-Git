@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
@@ -17,8 +17,8 @@ function App() {
           <Route path="/"></Route> 
           <Route path="/login" element={<Login />}></Route> 
           <Route path="/admin" element={<Admin />}></Route>
-          {/* <Route path="/searchjob" element={<PrivateRoute><SearchJob /></PrivateRoute>}></Route> */}
-          <Route path="/searchjob" element={<SearchJob />}></Route>
+          <Route path="/searchjob" element={<PrivateRoute><SearchJob /></PrivateRoute>}></Route>
+          {/* <Route path="/searchjob" element={<SearchJob />}></Route> */}
           <Route path="/dashboard" element={<Dashboard />}></Route>
          
           <Route path="/register" element={<Register />}></Route>
