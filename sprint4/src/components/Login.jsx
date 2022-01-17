@@ -13,11 +13,11 @@ export const Login=()=>{
         <div><h2>User Page</h2></div>
         <form>
         <div>
-            <label>Email</label>
+            <label  style={{margin:"35px"}}>Email</label>
             <input type="text" name="email"></input>
         </div>
         <div>
-            <label>Password</label>
+            <label  style={{margin:"21px"}}>Password</label>
             <input type="password" name="password"></input>
         </div>
         <div>
